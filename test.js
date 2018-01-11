@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import requireFromString from 'require-from-string';
 
 
-  var app = require("./lib/chat")
+  var app = require("./chat")
   fromExpress(app);
 
 
