@@ -119,7 +119,7 @@ function test(){
 
 function test_send_message(urls){
   send_message(urls[0], 'hello world from user1');
-  send_message(urls[5], 'hello world from user6');
+  //send_message(urls[5], 'hello world from user6');
 }
 
 /**
