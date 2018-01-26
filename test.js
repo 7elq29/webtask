@@ -100,7 +100,7 @@ function send_message(from_url, message, cb){
 
 
 function test(){
-  var size = 10;  // number of users
+  var size = 5;  // number of users
   var usernames=[], urls=[];  // the name of users and their link to the webtask
   for(var i=1;i<=size;i++){
     usernames.push('user'+i);
